@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    color: blue;
+    background-color: lightblue;
+    font-style: italic;
+    text-align: center;
+}
+
+#second-paragraph {
+    color: #FF0000;
+    background-color: pink;
+    font-size: 24px;
+    text-decoration: line-through;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    color: green;
+    background-color: lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#span1 {
+    color: yellowgreen;
+    font-weight: 600;
+    font-size: larger;
+}
+
+#span2 {
+    color: cornflowerblue;
+    font-style: italic;
+    font-size: small;
+}
+
+#span3 {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+#span4 {
+    font-size: 48px;
+    font-weight: 400;
+    color: brown;
+}
