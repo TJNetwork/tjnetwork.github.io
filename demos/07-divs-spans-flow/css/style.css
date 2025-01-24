@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.narrow {
+    width: 30%;
+    display:inline-block;
+    background: linear-gradient(red, blue, pink);
+    color: white
+}
