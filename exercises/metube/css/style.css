@@ -78,7 +78,6 @@ body {
 }
 
 .metube-item .thumbnail-placeholder {
-    background: radial-gradient(at top left, crimson, orange);
     aspect-ratio: 16 / 9;
     border-radius: 8px;
 }
@@ -89,7 +88,7 @@ body {
 
 .metube-item h4 a {
     text-decoration: none;
-    color: #111111;
+    color: rgb(18, 47, 102);
     display: block;
 }
 
@@ -100,9 +99,16 @@ body {
 .metube-item .video-details {
     margin: 8px;
     font-size: 14px;
-    
+    color: rgb(34, 58, 103);    
 }
 
 .metube-item .video-channel {
     margin-bottom: 4px;
+}
+
+.metube-item .thumbnail-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
 }
