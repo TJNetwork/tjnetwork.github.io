@@ -11,6 +11,7 @@ body {
     display: grid;
     grid-template-columns: 200px 2fr 2fr;
     grid-template-areas:
+        "header header header"
         "sidebar main details";
     width: 75%;
     margin-left: auto;
@@ -19,11 +20,36 @@ body {
 
 #header {
     grid-area: header;
+    /* border: 1px solid; */
+    text-align: center;
+    padding: 16px 0px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#header #m {
+    color: purple;
+}
+
+#header #e {
+    color: red;
+}
+
+#header #b {
+    color: blue;
+}
+
+#header #a {
+    color: goldenrod;
+}
+
+#header #y {
+    color: green;
 }
 
 #sidebar {
     grid-area: sidebar;
-    border: 1px solid;
+    /* border: 1px solid; */
     /* min-height: 100vh; */
     text-align: center;
 }
@@ -31,14 +57,14 @@ body {
 #sidebar img {
     width: 100px;
     height: 100px;
-    margin: 12px 48px;
+    margin: 10px 48px;
     border: 1px solid;
     border-radius: 8px;
 }
 
 #main {
     grid-area: main;
-    border: 1px solid;
+    /* border: 1px solid; */
     /* min-height: 100vh; */
     text-align: center;
 }
@@ -47,13 +73,13 @@ body {
     display: block;
     width: 700px;
     margin: 24px auto;
-    border: 1px solid;
+    /* border: 1px solid; */
     border-radius: 8px;
 }
 
 #details {
     grid-area: details;
-    border: 1px solid;
+    /* border: 1px solid; */
     /* min-height: 100vh; */
     padding-left: 48px;
 }
@@ -100,7 +126,7 @@ body {
     background-color: blue;
     color: white;
     text-decoration: none;
-    padding: 12px 180px;
+    padding: 16px 10px;
     border-radius: 30px;
 }
 
@@ -111,7 +137,7 @@ body {
     color: blue;
     border: 1px solid blue;
     text-decoration: none;
-    padding: 16px 180px;
+    padding: 16px 10px;
     border-radius: 30px;
     margin: 24px 0px;
 }
@@ -123,6 +149,6 @@ body {
     color: blue;
     border: 1px solid blue;
     text-decoration: none;
-    padding: 12px 180px;
+    padding: 16px 10px;
     border-radius: 30px;
 }
