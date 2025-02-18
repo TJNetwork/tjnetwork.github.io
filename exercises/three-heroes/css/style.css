@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/fall-road-background.jpg);
+    height: 100vh;
+    color: white;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero-1 h1 {
+    font-size: 72px;
+    margin: 0px;
+}
+
+#hero-1 h4 {
+    font-size: 48px;
+    margin: 24px;
+}
+
+#hero-1 a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+#hero-2 {
+    background-image: url(../images/cyberwave.jpg);
+    height: 100vh;
+    color: white;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero-2 h1 {
+    font-size: 72px;
+    margin: 0px;
+}
+
+#hero-2 h4 {
+    font-size: 48px;
+    margin: 24px;
+}
+
+#hero-2 a {
+    background-color: rgb(16, 83, 110);
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+#hero-3 {
+    background-image: url(../images/abstract.jpg);
+    height: 100vh;
+    color: black;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero-3 h1 {
+    font-size: 72px;
+    margin: 0px;
+}
+
+#hero-3 h4 {
+    font-size: 48px;
+    margin: 24px;
+}
+
+#hero-3 a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    border-radius: 20px;
+}
