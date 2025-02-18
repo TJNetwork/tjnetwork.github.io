@@ -49,12 +49,47 @@ body {
     margin: 0px 16px;
 }
 
-#navbar-2 #button-2 {
+#navbar-3 #button-2 {
     background-color: rgb(214, 58, 1);
     padding: 8px;
-    border-radius: 28px;
+    border-radius: 2px;
 }
 
-#navbar-2 #button-2 a {
+#navbar-3 #button-2 a {
     color: orange;
+}
+
+#navbar-3 {
+    padding: 24px;
+    background-color: rgb(255, 132, 0);
+}
+
+#navbar-3 h1 {
+    font-size: 20px;
+    color: black;
+}
+
+#category a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px 12px;
+}
+
+#category {
+    background-color: rgb(255, 172, 83);
+    text-align: center;
+}
+
+
+#navbar-3 #button-2 {
+    background-color: black;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+#navbar-3 #button-2 a {
+    color: rgb(255, 132, 0);
+    text-decoration: none;
 }
