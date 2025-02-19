@@ -213,9 +213,8 @@ a {
 /* TODO: Add your media query code here */
 
 @media screen and (max-width: 768px) {
-
-    #nav-links {
-        flex-wrap: wrap;
+    #nav {
+        flex-direction: column;
     }
 
     #hero h1 {
