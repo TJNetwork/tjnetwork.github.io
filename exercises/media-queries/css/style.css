@@ -225,8 +225,13 @@ a {
         font-size: 48px;
     }
 
-    .three-cards, .two-cards{
+    .three-cards,
+    .two-cards {            
         flex-direction: column;
     }
     
+    .two-cards .card {
+        display: flex;
+        flex-direction: column;
+    }
 }
