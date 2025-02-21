@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -19,6 +21,7 @@ body {
 }
 
 #navbar a {
+    font-family: "Knewave", serif;
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -27,6 +30,7 @@ body {
 }
 
 #navbar #logo {
+    font-family: "Knewave", serif;
     margin-right: auto;
     font-weight: bold;
     font-size: 36px;
