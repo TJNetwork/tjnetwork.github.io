@@ -24,7 +24,7 @@ function formatCountdownText(days, hours, minutes, seconds) {
     return `${days}d ${hours}h ${minutes}m ${seconds}s left`;
 }
 
-let deadline = new Date("Febuary 28, 2025 12:00:00");
+let deadline = new Date("March 1, 2025 00:00:00");
 
 let countdown = document.getElementById("countdown");
 countdown.innerHTML = "";
