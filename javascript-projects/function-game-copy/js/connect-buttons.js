@@ -27,7 +27,7 @@ Hook up EventHandlers functions for other buttons
 *******************************************************************************/
 let buttonAttack = document.getElementById('attack');
 buttonAttack.onclick = reactToAttackButton;
-let buttomLongAttack = document.getElementById("long-attack");
+let buttonLongAttack = document.getElementById("long-attack");
 buttonLongAttack.onclick = reactToLongAttackButton;
 let buttonJump = document.getElementById('jump');
 buttonJump.onclick = reactToJumpButton;
