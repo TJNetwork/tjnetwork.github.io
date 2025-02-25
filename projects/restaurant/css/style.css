@@ -47,8 +47,6 @@ body {
     height: 100vh;
     background-size: cover;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
     position: relative;
 }
 
