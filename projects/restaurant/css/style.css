@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Covered+By+Your+Grace&family=Knewave&family=Lemon&family=Racing+Sans+One&family=Rubik+Glitch&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +8,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background-color: #341D38;
+    font-family: "Lemon", serif;
 }
 
 #menu-page {
