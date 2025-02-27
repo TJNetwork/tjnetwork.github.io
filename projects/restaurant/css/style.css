@@ -8,6 +8,10 @@ body {
     background-color: #341D38;
 }
 
+#menu-page {
+    background-color: #713F79;
+}
+
 .navbar {
     background-color: #341D38;
     display: flex;
@@ -112,4 +116,47 @@ body {
     #hero-1 a {
         font-size: 36px;
     }
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    color:#FFCE65;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.side-by-side .text-container h1 {
+    font-size: 48px;
+}
+
+.side-by-side .text-container h2 {
+    font-size: 36px;
+}
+
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #341D38;
+    color: #D8A128;
+    padding: 24px 48px;
+    border-radius: 48px;
+}
+
+.side-by-side .text-container a:hover {
+    background-color: #BF85BA;
+    color: #FFCE65;
 }
