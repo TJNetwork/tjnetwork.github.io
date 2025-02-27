@@ -57,21 +57,17 @@ body {
 
 .single-column-layout p {
     padding: 0px 72px;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .single-column-layout p #start{
-    margin-top: 20px;
-}
-
-.single-column-layout p #end{
-    margin-bottom: 20px;
+    margin-top: 28px;
 }
 
 .single-column-layout #location {
-    margin-top: 28px;
+    margin-top: 36px;
     margin-bottom: 48px;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .single-column-layout a {
