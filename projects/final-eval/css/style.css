@@ -6,13 +6,12 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Racing Sans One", serif;
 }
 
 .single-column-layout {
     width: 100%;
     color: white;
-    font-family: "Racing Sans One", serif;
     text-align: center;
     max-width: 1000px;
     margin-left: auto;
