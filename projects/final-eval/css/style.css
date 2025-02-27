@@ -11,18 +11,21 @@ body {
 
 .single-column-layout {
     width: 100%;
+    color: white;
     font-family: "Racing Sans One", serif;
     text-align: center;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color: green;
+    background: url(../images/football.jpg);
+    background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
 .single-column-layout #name {
     margin: 0px;
-    padding: 16px;
+    padding: 12px;
     font-size: 24px;
 }
 
@@ -43,14 +46,18 @@ body {
     font-size: 36px;
 }
 
+.single-column-layout #vs {
+    font-size: 72px;
+}
+
 .single-column-layout #time {
     margin: 32px;
     font-size: 52px;
 }
 
 .single-column-layout p {
-    padding: 0px;
-    font-size: 24px;
+    padding: 0px 72px;
+    font-size: 28px;
 }
 
 .single-column-layout p #start{
@@ -63,12 +70,12 @@ body {
 
 .single-column-layout #location {
     margin-top: 28px;
-    margin-bottom: 120px;
+    margin-bottom: 48px;
     font-size: 24px;
 }
 
 .single-column-layout a {
-    background-color: darkolivegreen;
+    background-color: rgb(196, 0, 0);
     padding: 16px;
     border-radius: 36px;
     margin: 48px;
@@ -85,6 +92,11 @@ body {
     color: black;
 }
 
+.single-column-layout a:hover {
+    background-color: rgb(255, 105, 105);
+    color: rgb(180, 180, 180);
+}
+
 .side-by-side {
     display: flex;
     align-items: center;
@@ -96,5 +108,44 @@ body {
 
 .side-by-side .image-container img {
     width: 250px;
-    margin-top: 24px;
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 775px) {
+    
+    .single-column-layout #time {
+        font-size: 48px;
+    }
+
+    .side-by-side .image-container img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+
+    .single-column-layout #vs {
+        font-size: 36px;
+    }
+
+    .single-column-layout .team {
+        font-size: 28px;
+    }
+    
+    .single-column-layout #time {
+        font-size: 32px;
+    }
+
+    .single-column-layout p {
+        font-size: 16px;
+    }
+
+    .single-column-layout #location {
+        font-size: 20px;
+    }
+
+    .single-column-layout a {
+        margin: 24px;
+        font-size: 20px;
+    }
 }
