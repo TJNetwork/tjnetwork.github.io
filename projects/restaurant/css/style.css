@@ -160,6 +160,7 @@ body {
     font-size: 72px;
     padding: 0px 24px;
     border-bottom: 10px solid #341D38;
+    /* border-radius: 32px; */
 }
 
 #menu {
@@ -194,6 +195,53 @@ body {
 
 #menu .item p {
     font-size: 24px;
+}
+
+#menu-item-page {
+    background-color: #713F79;
+}
+
+.single-column-layout{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #341D38;
+    height: 100vh;
+}
+
+.info {
+    text-align: center;
+    color: #D8A128;
+    margin: 0px 36px;
+}
+
+.info img {
+    width: 75%;
+    margin: 24px;
+}
+
+.info h1 {
+    font-size: 56px;
+    margin-bottom: 72px;
+}
+
+.info p {
+    font-size: 32px;
+    text-align: center;
+    padding: 0px 48px;
+}
+
+#secret-sandwich-info img {
+    width: 70%;
+}
+
+#mystery-munchies-info img {
+    width: 60%;
+}
+
+#boggling-bites-info img {
+    width: 75%
 }
 
 @media screen and (max-width: 1270px) {
@@ -262,5 +310,13 @@ body {
 
     #menu {
         grid-template-columns: 1fr;
+    }
+
+    .info h1 {
+        font-size: 48px;
+    }
+    
+    .info p {
+        font-size: 20px;
     }
 }

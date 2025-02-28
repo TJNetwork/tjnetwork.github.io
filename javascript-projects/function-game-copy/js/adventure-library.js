@@ -296,8 +296,6 @@ function attack() {
     }
 }
 
-function longAttack() {}
-
 // Triggers the "nudge" animation in the player, which moves the player
 // slightly forward and back in the direction they're facing
 function nudge() {
