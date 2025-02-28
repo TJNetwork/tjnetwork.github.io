@@ -38,7 +38,7 @@ body {
 .navbar #logo-container img {
     width: 350px;
     display: block;
-    padding: 24px 32px;
+    padding: 26px 32px;
 }
 
 #logo-container {
@@ -53,6 +53,7 @@ body {
     background-image: url("../images/mystic-bites-background.jpg");
     height: 100vh;
     background-size: cover;
+    background-position: center center;
     display: flex;
     position: relative;
 }
@@ -119,6 +120,7 @@ body {
 
     #hero-1 a {
         font-size: 36px;
+        top: 55%;
     }
 }
 
@@ -134,7 +136,7 @@ body {
 
 .side-by-side .text-container {
     flex: 1;
-    color:#FFCE65;
+    color: #FFCE65;
 }
 
 .side-by-side .image-container {
@@ -217,6 +219,10 @@ body {
 }
 
 @media screen and (max-width: 1270px) {
+    #hero-1 a {
+        top: 65%;
+    }
+
     #menu {
         grid-template-columns: 1fr;
         width: 100%;
